@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example 2 — Aircraft Design — Idopt Lab</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f7f8fc;
+      --card-bg: #ffffff;
+      --header-bg: #0d1b2a;
+      --accent: #2563eb;
+      --text: #1a202c;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+    }
+
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: var(--header-bg);
+      padding: 1.1rem 2.5rem;
+    }
+    header .logo {
+      color: white;
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+      text-decoration: none;
+    }
+
+    nav.breadcrumb {
+      background: white;
+      border-bottom: 1px solid var(--border);
+      padding: 0.65rem 2.5rem;
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+    nav.breadcrumb a { color: var(--accent); text-decoration: none; }
+    nav.breadcrumb a:hover { text-decoration: underline; }
+    nav.breadcrumb .sep { margin: 0 0.4rem; }
+
+    main {
+      flex: 1;
+      max-width: 1100px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 3rem 2.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .placeholder-icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: #e2e8f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1.5rem;
+      font-size: 2rem;
+    }
+
+    h1 { font-size: 1.75rem; font-weight: 700; margin-bottom: 0.6rem; }
+    p { color: var(--text-muted); font-size: 1.05rem; line-height: 1.6; max-width: 440px; }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 2rem;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+    .back-link:hover { text-decoration: underline; }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a class="logo" href="/">Idopt Lab</a>
+  </header>
+
+  <nav class="breadcrumb">
+    <a href="../../../">Home</a>
+    <span class="sep">/</span>
+    <a href="../../">Interactive Visualization</a>
+    <span class="sep">/</span>
+    <a href="../">Aircraft Design</a>
+    <span class="sep">/</span>
+    Example 2
+  </nav>
+
+  <main>
+    <div class="placeholder-icon">&#9881;</div>
+    <h1>Coming Soon</h1>
+    <p>This example is currently under development and will be available soon.</p>
+    <a class="back-link" href="../">← Back to Aircraft Design</a>
+  </main>
+
+  <footer>
+    Idopt Lab &mdash; GitHub Pages
+  </footer>
+
+</body>
+</html>
