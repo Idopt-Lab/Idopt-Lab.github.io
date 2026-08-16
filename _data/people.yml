@@ -1,0 +1,61 @@
+# Lab roster. Adding a member = appending an entry under the right group.
+# Groups render in the order listed in _pages/people.md.
+#
+# Fields: name (required), topic, grad (expected graduation), note (awards,
+# fellowships), url (personal page), email.
+
+pi:
+  - name: Darshan Sarojini
+    role: Assistant Professor, Aerospace and Ocean Engineering
+    email: sdarshan@vt.edu
+    url: https://www.aoe.vt.edu/people/faculty/darshan-sarojini.html
+
+phd:
+  - name: Grant Lee
+    topic: Vehicle-Operations Co-Design for Regional Air Mobility
+  - name: Khoa D. Nguyen
+    topic: Autonomous Battery Units for Urban Air Mobility
+
+bsms:
+  - name: Joseph Gould
+    topic: Certification-Driven Aircraft Design
+    grad: Dec 2026
+  - name: Nathan M. Shune
+    topic: Multidisciplinary Aircraft Design and Trajectory Optimization
+    grad: Dec 2026
+  - name: Joel George
+    topic: Structural Optimization
+    grad: May 2027
+  - name: Krish D. Bhatt
+    topic: Agent-Based Modeling for Multi-modal Transportation
+    grad: Dec 2027
+  - name: Jeremy John
+    topic: Ship Design Optimization
+    grad: May 2027
+    note: DoW SMART Scholar; 2025 Fincantieri Scholar
+  - name: Quinn McIver
+    topic: Off-Nominal Reliability in Aircraft Design
+    grad: May 2027
+
+ms:
+  - name: Emma Paulter
+    topic: Hypersonic Waveriders Optimization
+    grad: Dec 2026
+  - name: Casey Chamberlain
+    topic: Conceptual Aircraft Design Tools
+    grad: Dec 2027
+  - name: Dylan Hogge
+    topic: Hybrid-Electric Aircraft Design
+    grad: Dec 2027
+
+undergrad:
+  - name: Sanjana Anem
+    topic: Aircraft Design Visualization in VR
+    grad: May 2028
+
+alumni:
+  - name: Naman Kumar Shetty
+    topic: Flight Dynamics Framework
+    note: MS, May 2026
+  - name: Ethan J. Phillips
+    topic: Flight Simulation and VR

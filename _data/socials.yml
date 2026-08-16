@@ -1,0 +1,11 @@
+# Social links shown in the footer / about page, in the order defined here.
+# See https://github.com/george-gca/jekyll-socials for the full field list.
+email: sdarshan@vt.edu
+scholar_userid: BmotoisAAAAJ # Google Scholar ID
+github_username: Idopt-Lab
+rss_icon: true # comment this line to hide the RSS icon
+
+# TODO: add if you want them shown —
+# orcid_id:
+# linkedin_username:
+# cv_pdf: /assets/pdf/your_cv.pdf   # drop the file in assets/pdf/ first

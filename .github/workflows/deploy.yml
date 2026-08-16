@@ -1,0 +1,92 @@
+name: Deploy site
+
+# Builds the al-folio site and publishes it via the GitHub Pages artifact API.
+#
+# This deliberately does NOT use al-folio's stock JamesIves/github-pages-deploy-action,
+# which commits the built _site to a gh-pages branch. interactive-visualization/ holds
+# ~218 MB of .glb models, so a branch-based deploy would write a quarter-gigabyte of
+# binaries into git history on every single build. The artifact API keeps the build
+# output out of the repo entirely.
+#
+# Requires Settings -> Pages -> Build and deployment -> Source = "GitHub Actions".
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Let a running deployment finish rather than cancelling it mid-publish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Setup Ruby 💎
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3.5"
+          bundler-cache: true
+
+      - name: Setup Python 🐍
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip"
+
+      - name: Setup Node 🧰
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install JS deps 📦
+        run: npm ci
+
+      - name: Install and Build 🔧
+        run: |
+          sudo apt-get update && sudo apt-get install -y imagemagick
+          pip3 install --upgrade nbconvert
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+
+      - name: Purge unused CSS 🧹
+        run: |
+          npm install -g purgecss
+          purgecss -c purgecss.config.js
+
+      # Must run AFTER purgecss: the visualizations ship their own CSS, which
+      # purgecss would strip if it were present in _site during the purge.
+      - name: Copy interactive visualizations 🛩️
+        run: ./bin/copy-viz.sh _site
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    # Pull requests build only — they must not publish over the live site.
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
