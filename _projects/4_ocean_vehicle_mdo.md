@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Design Optimization of Ocean Vehicles
-description: Large-scale MDO methods applied to maritime vessels
+title: Design Optimization of Ocean Vehicles Using Large-Scale MDO Methods
+description: Applying air-vehicle MDO methods to maritime systems
 importance: 4
 category: ongoing
 ---
 
-**Sponsor:** Fincantieri (Summer 2025 Fincantieri scholarship; recipient: Jeremy John)
+This project explores the application of large-scale MDO methods, developed for air vehicles, to the design of ocean vehicles. The results will contribute to the advancement of cost-effective, high-performance maritime systems and inform future ship design methodologies.
 
-This research applies multidisciplinary design optimization techniques developed for aerospace to maritime vessel design.
+Sponsor: Fincantieri (Summer 2025 Fincantieri scholarship. Recipient: Jeremy John)

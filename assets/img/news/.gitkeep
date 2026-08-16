@@ -1,0 +1,16 @@
+Put news images here, grouped by year: assets/img/news/2026/flight-school.jpg
+
+Then reference one from any file in _news/ :
+
+    ---
+    layout: post
+    date: 2026-07-01
+    inline: true
+    related_posts: false
+    image: news/2026/flight-school.jpg
+    image_alt: Students touring the Bill Noe Flight School
+    image_width: 260          # optional, px; defaults to 220
+    ---
+
+The image renders on both the homepage announcements and /news/.
+Items without an `image:` key are unaffected.

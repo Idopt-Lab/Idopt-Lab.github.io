@@ -255,6 +255,9 @@ exclude:
 keep_files:
   - CNAME
   - .nojekyll
+  # Copied into _site by bin/copy-viz.sh rather than generated. Listing it here
+  # stops `jekyll serve --watch` from deleting it on every rebuild.
+  - interactive-visualization
 
 # Use al_folio_core as the theme runtime; local files can still override theme files.
 theme: al_folio_core

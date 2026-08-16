@@ -1,61 +1,135 @@
-# Lab roster. Adding a member = appending an entry under the right group.
-# Groups render in the order listed in _pages/people.md.
+# Lab roster, kept in the order and wording used on the original site.
+# To add someone: append an entry under `current` (or `alumni`) and drop a photo
+# at assets/img/people/<slug>.<ext>. Nothing else needs editing.
 #
-# Fields: name (required), topic, grad (expected graduation), note (awards,
-# fellowships), url (personal page), email.
+# Fields: name, degree, grad (verbatim parenthetical), area, distinctions[],
+#         photo (path under assets/img/), links{}
 
 pi:
-  - name: Darshan Sarojini
-    role: Assistant Professor, Aerospace and Ocean Engineering
-    email: sdarshan@vt.edu
-    url: https://www.aoe.vt.edu/people/faculty/darshan-sarojini.html
+  name: Darshan Sarojini
+  photo: people/darshan-sarojini.jpg
+  email: sdarshan@vt.edu
+  bio:
+    - Darshan Sarojini is an Assistant Professor at Virginia Tech, where he heads the Intelligent Design Optimization Lab (IDOpt Lab) in the Aerospace and Ocean Engineering department.
+    - He serves on the AIAA Modeling and Simulation Technical Committee, Aircraft Design Technical Committee, Transformational Flight Intergration and Outreach Committee and Multimodal Transportation Working Group, and on a number of committees at the ACM/IEEE SuperComputing Conference.
+    - He has a bachelor's degree in mechanical engineering, a master's degree in computational science and engineering, and a Ph.D. in aerospace engineering. His graduate school research was conducted in the <a href="https://www.asdl.gatech.edu/">Aerospace Systems Design Lab</a> at Georgia Tech and postdoctoral research at the <a href="https://lsdo.eng.ucsd.edu/">Large Scale Design Optimization</a> lab at UC San Diego.
+  links:
+    Google Scholar: https://scholar.google.com/citations?user=BmotoisAAAAJ&hl=en
+    LinkedIn: https://www.linkedin.com/in/darshan-sarojini-31b89999/
+    ResearchGate: https://www.researchgate.net/profile/Darshan-Sarojini
+    ORCID: https://orcid.org/0000-0003-4910-3505
+    GitHub: https://github.com/darshansarojini
 
-phd:
+current:
   - name: Grant Lee
-    topic: Vehicle-Operations Co-Design for Regional Air Mobility
+    degree: Ph.D. AE
+    area: Vehicle-Operations Co-Design for Regional Air Mobility
+    photo: people/grant-lee.png
+    links:
+      LinkedIn: https://www.linkedin.com/in/grant-l-9b3271332/
+
   - name: Khoa D. Nguyen
-    topic: Autonomous Battery Units for Urban Air Mobility
+    degree: Ph.D. AE
+    area: Autonomous Battery Units (ABUs) for Urban Air Mobility
+    photo: people/khoa-nguyen.jpg
+    links:
+      LinkedIn: https://www.linkedin.com/in/aerokhoa/
+      Google Scholar: https://scholar.google.com/citations?user=ICGcWY0AAAAJ&hl=en
+      ResearchGate: https://www.researchgate.net/profile/Khoa-Nguyen-384
+      ORCID: https://orcid.org/0009-0004-3502-1722
 
-bsms:
   - name: Joseph Gould
-    topic: Certification-Driven Aircraft Design
-    grad: Dec 2026
+    degree: BS/MS Accelerated Program AE
+    grad: "(Expected graduation: Dec 2026)"
+    area: Certification-Driven Aircraft Design
+    photo: people/joseph-gould.png
+    links:
+      LinkedIn: https://www.linkedin.com/in/gouldjoseph/
+
   - name: Nathan M. Shune
-    topic: Multidisciplinary Aircraft Design and Trajectory Optimization
-    grad: Dec 2026
-  - name: Joel George
-    topic: Structural Optimization
-    grad: May 2027
-  - name: Krish D. Bhatt
-    topic: Agent-Based Modeling for Multi-modal Transportation
-    grad: Dec 2027
-  - name: Jeremy John
-    topic: Ship Design Optimization
-    grad: May 2027
-    note: DoW SMART Scholar; 2025 Fincantieri Scholar
-  - name: Quinn McIver
-    topic: Off-Nominal Reliability in Aircraft Design
-    grad: May 2027
+    degree: BS/MS Accelerated Program AE
+    grad: "(Expected graduation: Dec 2026)"
+    area: Multi-disciplinary Aircraft Design and Trajectory Optimization
+    photo: people/nathan-shune.png
+    links:
+      LinkedIn: https://www.linkedin.com/in/nathan-shune-518a45220/
+      GitHub: https://github.com/nshune
+      ORCID: https://orcid.org/0009-0006-6147-8149
 
-ms:
   - name: Emma Paulter
-    topic: Hypersonic Waveriders Optimization
-    grad: Dec 2026
-  - name: Casey Chamberlain
-    topic: Conceptual Aircraft Design Tools
-    grad: Dec 2027
-  - name: Dylan Hogge
-    topic: Hybrid-Electric Aircraft Design
-    grad: Dec 2027
+    degree: MS AE
+    grad: "(Expected graduation: Dec 2026)"
+    area: Optimization of hypersonic waveriders in a boost glide trajectory.
+    links:
+      LinkedIn: http://www.linkedin.com/in/emma-pautler-engineer
 
-undergrad:
+  - name: Joel George
+    degree: BS/MS Accelerated Program AE
+    grad: "(Expected graduation: May 2027)"
+    area: Structural Optimization of Primary Aerospace Structures Subject to Manufacturability and Producibility Considerations
+    links:
+      LinkedIn: https://www.linkedin.com/in/joel-m-george/
+
+  - name: Krish D. Bhatt
+    degree: BS/MS Accelerated Program AE
+    grad: "(Expected graduation: Dec 2027)"
+    area: Agent Based modeling for Simulating Multi-modal transportation and induction of eVTOLS.
+    photo: people/krish-bhatt.jpg
+    links:
+      LinkedIn: https://www.linkedin.com/in/krish-bhatt/
+
+  - name: Casey Chamberlain
+    degree: "Graduated AE BS: May 2026"
+    grad: "Expected AE MS Graduation: May 2027"
+    area: Tools for conceptual aircraft design in capstone design course
+    photo: people/casey-chamberlain.jpg
+    links:
+      LinkedIn: https://www.linkedin.com/in/casey-chamberlain-503992239/
+
+  - name: Jeremy John
+    degree: BS/MS Accelerated Program AE
+    grad: "(Expected graduation: May 2027)"
+    area: Ship Design Optimization and Dynamics
+    distinctions:
+      - DoW SMART Scholarship Recipient
+      - 2025 Fincantieri Scholar
+    photo: people/jeremy-john.png
+    links:
+      LinkedIn: https://www.linkedin.com/in/jer-j/
+
+  - name: Dylan Hogge
+    degree: MS AE
+    grad: "(Expected graduation: Dec 2027)"
+    area: Hybrid-electric aircraft design
+    photo: people/dylan-hogge.png
+    links:
+      LinkedIn: https://www.linkedin.com/in/dylan-hogge-aa33bb24a/
+
+  - name: Quinn McIver
+    degree: BS/MS Accelerated Program AE
+    grad: "(Expected graduation: May 2027)"
+    area: Off-Nominal Reliability Considerations for Conceptual Aircraft Design Optimization
+    photo: people/quinn-mciver.jpg
+    links:
+      LinkedIn: https://www.linkedin.com/in/quinn-mciver
+
   - name: Sanjana Anem
-    topic: Aircraft Design Visualization in VR
-    grad: May 2028
+    degree: Junior AE
+    grad: "(Expected graduation: May 2028)"
+    area: Aircraft Design Visualization in VR
+    photo: people/sanjana-anem.jpg
+    links:
+      LinkedIn: https://www.linkedin.com/in/sanjana-anem-4497a9327/
 
 alumni:
-  - name: Naman Kumar Shetty
-    topic: Flight Dynamics Framework
-    note: MS, May 2026
   - name: Ethan J. Phillips
-    topic: Flight Simulation and VR
+    degree: ME
+    area: Aircraft Flight Simulation and VR visualization
+    links:
+      LinkedIn: https://www.linkedin.com/in/ethan-phillips-vt/
+
+  - name: Naman Kumar Shetty
+    degree: "MS Non-Thesis AE (Graduated: May 2026)"
+    area: Modular Flight Dynamics & Simulation Frameworks.
+    links:
+      LinkedIn: https://www.linkedin.com/in/naman-kumar-shetty/

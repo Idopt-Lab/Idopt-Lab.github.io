@@ -72,8 +72,11 @@ jobs:
 
       # Must run AFTER purgecss: the visualizations ship their own CSS, which
       # purgecss would strip if it were present in _site during the purge.
+      # Invoked via `bash` rather than executed directly: this repo is authored on
+      # Windows with core.filemode=false, so a fresh script commits as 100644 and
+      # the runner would fail it with exit 126.
       - name: Copy interactive visualizations 🛩️
-        run: ./bin/copy-viz.sh _site
+        run: bash ./bin/copy-viz.sh _site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

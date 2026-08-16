@@ -1,0 +1,329 @@
+# Student resources, rendered by _pages/resources.md as a filterable index.
+#
+# Each entry's `body` is the original description and links, verbatim. The facets
+# below it drive the filter chips.
+#
+#   type:        fellowship | scholarship | grant | competition | summer program | travel
+#   level:       undergrad | masters | phd | postdoc   (list; an entry may span several)
+#   scope:       national | international | local
+#
+# To add an opportunity, append an entry -- no HTML or layout changes needed.
+
+- name: "Dwight DDETFP"
+  type: "fellowship"
+  level: [undergrad, masters, phd]
+  scope: national
+  body: |
+    The Dwight David Eisenhower Transportation Fellowship Program (DDETFP) awards fellowships to students pursuing degrees in transportation-related disciplines. This program advances the transportation workforce by helping to attract the nation's brightest minds to the field of transportation, encouraging future transportation professionals to seek advanced degrees, and helping to retain top talent in the U.S. transportation industry.
+
+    [Program Information](https://highways.dot.gov/careers/dwight-david-eisenhower-transportation-fellowship-program)
+
+- name: "NSF GRFP"
+  type: "fellowship"
+  level: [masters, phd]
+  scope: national
+  body: |
+    The purpose of the NSF Graduate Research Fellowship Program (GRFP) is to help ensure the quality, vitality, and diversity of the scientific and engineering workforce of the United States. NSF actively encourages the submission of applications from the full spectrum of diverse talent that society has to offer, including underrepresented and underserved communities. The five-year Fellowship provides three years of financial support, including an annual stipend of $37,000.
+
+    [Program Information](https://www.nsfgrfp.org/)
+
+- name: "NSF Postdoctoral Fellowship"
+  type: "fellowship"
+  level: [postdoc]
+  scope: national
+  body: |
+    NSF's Engineering Fellows program supports independent postdoctoral research in engineering. In addition to hands-on academic research with a faculty advisor, each fellowship cohort participates in professional development and mentoring activities designed to prepare them for future research careers.
+
+    [Program Information](https://new.nsf.gov/funding/postdocs#engineering-postdoctoral-fellowship-6bc)
+
+- name: "John V. Wehausen Graduate Scholarship"
+  type: "scholarship"
+  level: [masters]
+  scope: national
+  body: |
+    The John V. Wehausen Scholarship is part of the SNAME Graduate Scholarships Program, open to applicants worldwide who are members, in good standing, of SNAME that preferably express an interest in the study of ship hydrodynamics and wave theory, though that is not a requirement. Awards are made for one year of study leading to a Master's Degree. Applicants must not receive their Master's Degree prior to 1 September of the academic year for which the scholarship applies.
+
+    [Program Information- Masters](https://sname.org/scholarship/john-v-wehausen-graduate-scholarship)
+
+- name: "Samya Rose Stumo National Air Grant Fellowship"
+  type: "fellowship"
+  level: [masters, phd]
+  scope: national
+  body: |
+    The program offers an opportunity for graduate students in aerospace fields to gain experience in how aviation legislation and policy are developed.
+
+    [Program Information- PhD](https://www.faa.gov/nagf)
+
+- name: "DoE Office of Science Graduate Student Research (SCGSR) Program"
+  type: "fellowship"
+  level: [phd]
+  scope: national
+  body: |
+    The SCGSR program provides supplemental funds for U.S. graduate awardees (U.S. citizens or lawful permanent residents) to conduct part of their PhD thesis research at a host DOE laboratory/facility in collaboration with a DOE National Laboratory scientist within a defined award period.
+
+    [Program Information](https://science.osti.gov/wdts/scgsr)
+
+- name: "DoD SMART"
+  type: "scholarship"
+  level: [undergrad, masters, phd]
+  scope: national
+  body: |
+    The SMART Scholarship-for-Service Program is a combined educational and workforce development opportunity for STEM students. SMART offers scholarships for undergraduate, master's, and doctoral students pursuing a STEM degree. SMART offers two scholarship opportunities, the SMART Scholarship and the Ronald V. Dellums Memorial SMART Scholarship. All scholarship recipients receive full tuition, annual stipends, internships, and guaranteed civilian employment with the Department of Defense after graduation.
+
+    [Program Information](https://www.smartscholarship.org/smart/en)
+
+- name: "DoD NDSEG"
+  type: "fellowship"
+  level: [phd]
+  scope: national
+  body: |
+    The DoD National Defense Science and Engineering Graduate (NDSEG) Fellowship Program is a competitive fellowship that is awarded to U.S. citizens, U.S. nationals, and U.S. dual citizens who intend to pursue a Doctoral degree aligned to the DoD services Broad Agency Announcements (BAAs) in research and development at a U.S. institution of their choice.
+
+    [Program Information](https://ndseg.sysplus.com/NDSEG/about/)
+
+- name: "ACRP Graduate Research Award"
+  type: "fellowship"
+  level: [masters, phd]
+  scope: national
+  body: |
+    The ACRP (Airport Cooperative Research Program) Graduate Research Award (GRA) is intended to stimulate thought, discussion, and research by those who may become the future airport managers, operators, designers, and policymakers in aviation. The focus of this graduate student research program is on applied research on airport and related aviation system issues to help the public sector continue to improve the quality, reliability, safety, and security of the U.S. civil aviation system well into the foreseeable future.
+
+    [Program Information](https://www.trb.org/ACRP/GraduateResearchAwards.aspx)
+
+- name: "VFS Robert L. Lichten Award"
+  type: "competition"
+  level: [undergrad, masters, phd]
+  scope: national
+  body: |
+    Established to provide an incentive to VFS members, who have not previously presented the results of their work at a technical forum, to begin presenting their work at local and regional VFS meetings.
+
+    [Program Information](https://vtol.org/awards-and-contests/vertical-flight-society-award-winners?awardID=15)
+
+- name: "VFS VFF Scholarship Program"
+  type: "scholarship"
+  level: [undergrad, masters, phd]
+  scope: national
+  body: |
+    Each year, Vertical Flight Foundation (VFF) scholarships are awarded to college students demonstrating an interest in pursuing engineering related careers in vertical flight technology.
+
+    [Program Information](https://vtol.org/vff)
+
+- name: "TUM PREP, Germany"
+  type: "summer program"
+  level: [undergrad]
+  scope: international
+  body: |
+    In the framework of the Practical Research Experience Program (TUM PREP), TUM invites each summer excellent students from leading North American universities and the Imperial College London to spend an approx. 8-week long research stay at TUM. Participating students gain valuable insights into the research work at Germany's top-ranked technical university and enhance their technical and methodological qualifications.
+
+    [Program Information](https://www.international.tum.de/en/global/prep/)
+
+- name: "DAAD RISE"
+  type: "summer program"
+  level: [undergrad, masters, phd]
+  scope: international
+  body: |
+    RISE Professional offers summer research internships in Germany to Master's and Ph.D. students from USA, Canada, Great Britain or Ireland at companies and non-university research institutions with strong relations to industry.
+
+    [Program Information - Graduate Students](https://www.daad.de/rise/en/rise-professional/)
+
+    RISE Germany offers undergraduate students from North American, British and Irish universities the opportunity to complete a summer research internship at top German universities and research institutions.
+
+    [Program Information - Undergraduate Students](https://www.daad.de/rise/en/rise-germany/)
+
+- name: "Start in France Program"
+  type: "summer program"
+  level: [undergrad, masters, phd]
+  scope: international
+  body: |
+    The Start in France program is organized by the Office for Science and Technology (SST) of the Embassy of France in the United States, with the support of the Ministry for Europe and Foreign Affairs.
+
+    This program aims to introduce selected laureates to the French innovation ecosystem and allow them to benefit from France's expertise and dynamism in this field. Through Start in France, laureates will be able to assess France's attractiveness in terms of innovation and research, as well as identify relevant support programs and mechanisms for their potential development.
+
+    [Program Information](https://la-synapse.com/en/our-programs/start-in-france-program/)
+
+- name: "MIT Summer Research Program (MSRP)"
+  type: "summer program"
+  level: [undergrad]
+  scope: national
+  body: |
+    The MIT Summer Research Program (MSRP) is a competitive summer initiative designed to promote the value of graduate education, broaden participation in the research enterprise, and prepare and recruit exceptional undergraduate students for graduate study at MIT and beyond.
+
+    MSRP seeks to identify talented undergraduates who might benefit from spending a summer on MIT's campus, conducting research under the guidance of MIT faculty members, postdoctoral fellows, and advanced graduate students.
+
+    [Program Information](https://oge.mit.edu/msrp/)
+
+- name: "University of Utah Summer Program for Undergraduate Research (SPUR)"
+  type: "summer program"
+  level: [undergrad]
+  scope: national
+  body: |
+    SPUR is a nationally competitive opportunity that provides undergraduate students with an intensive 10-week summer research experience under the mentorship of a University of Utah faculty member. The program provides opportunities to gain research experience in a variety of disciplines.
+
+    [Program Information](https://our.utah.edu/research-scholarship-opportunities/spur/)
+
+- name: "Northwestern Summer Research Opportunity Program (SROP)"
+  type: "summer program"
+  level: [undergrad]
+  scope: national
+  body: |
+    The Summer Research Opportunity Program (SROP) is an eight-week competitive research experience hosted by Northwestern University for sophomores and juniors from colleges and universities across the United States. All research fields at Northwestern are open to SROP participants including the social sciences, humanities, physical sciences, chemical and biological sciences, technology, math, and engineering fields.
+
+    [Program Information](https://www.tgs.northwestern.edu/success/recruitment/summer-research-opportunity-program/)
+
+- name: "NASA USRC"
+  type: "competition"
+  level: [undergrad, masters, phd]
+  scope: national
+  body: |
+    University Student Research Challenge (USRC) seeks to challenge students to propose new ideas/concepts that are relevant to NASA Aeronautics. USRC will provide students, from accredited U.S. colleges or universities, with grants for their projects and with the challenge of raising cost share funds through a crowdfunding campaign. [[Program Information](https://nspires.nasaprs.com/external/solicitations/summary!init.do?solId=%7BF97021D4-09B1-92EF-44F9-692818541E49%7D&path=open)]
+
+- name: "NASA Blue Skies Competition"
+  type: "competition"
+  level: [undergrad, masters]
+  scope: national
+  body: |
+    Opportunities exist to improve currently deployed systems and/or implement new technologies by modernizing aviation capabilities in agriculture to increase impact, safety, and ease of access to both these enabling systems and the products/services they ensure.
+
+    [Program Information](https://blueskies.nianet.org/)
+
+- name: "ACRP Design Competition"
+  type: "competition"
+  level: [undergrad, masters, phd]
+  scope: national
+  body: |
+    This Competition challenges individuals and teams of undergraduate and/or graduate students working with faculty advisors at U.S. colleges and universities to consider innovative approaches related to airport issues.
+
+    [Program Information](https://www.trb.org/ACRP/ACRPDesignCompetition.aspx)
+
+- name: "National Conference on Undergraduate Research (NCUR)"
+  type: "competition"
+  level: [undergrad]
+  scope: national
+  body: |
+    The National Conference on Undergraduate Research (NCUR) is dedicated to promoting undergraduate research, scholarship and creative activity in all fields of study by sponsoring an annual conference for students. Unlike meetings of academic professional organizations, this gathering of student scholars welcomes presenters from all institutions of higher learning and from all disciplines. Overall, this conference offers a unique environment for the celebration and promotion of undergraduate student achievement; provides models of exemplary research, scholarship, and creative activity; and offers student career readiness development.
+
+    [Program Information](https://ncur.secure-platform.com/)
+
+- name: "VT ICTAS Undergraduate Research Fellowship"
+  type: "fellowship"
+  level: [undergrad]
+  scope: local
+  body: |
+    The ICTAS Undergraduate Research Fellowship Program supports early career undergraduates involved in mentored research at Virginia Tech. The goal of the program is to enable students to extend their current research projects and experience a step further with independent funding, so that they can devote additional time to their project, under the supervision of their chosen mentor.
+
+    [Program Information](https://www.research.undergraduate.vt.edu/research-and-engagement/student-research-and-engagement/research-opportunities/virginia-tech-research-opportunities/ictas-undergraduate-research-fellowship.html)
+
+- name: "VSGC STEM Research Scholarship"
+  type: "scholarship"
+  level: [undergrad, masters, phd]
+  scope: local
+  body: |
+    Applicants must be enrolled full-time in a program of study STEM and have a specific faculty-mentored research project that has NASA or aerospace relevance.
+
+    [Program Information- Undergraduate](https://vsgc.odu.edu/undergraduatescholarships/)
+
+    [Program Information- Graduate](https://vsgc.odu.edu/graduatefellowships/)
+
+- name: "Charles C. Walts Scholarship Endowment"
+  type: "scholarship"
+  level: [undergrad]
+  scope: local
+  body: |
+    Charles C. Walts, a 1941 alumnus, established scholarships for students pursuing a degree in the College of Engineering. The scholarships shall be limited to those students who are U.S. citizens enrolled in the R.O.T.C. program. There is no work requirement attached to this fellowship. The fellowship is typically awarded starting in the fall semester.
+
+- name: "Robert & Carol Tolson Fellowship"
+  type: "fellowship"
+  level: [masters, phd]
+  scope: local
+  body: |
+    Established by Robert H. Tolson ('58), this award is for graduate students or students admitted for graduate study who are members of an underrepresented population of students in the College of Engineering's Department of Aerospace and Ocean Engineering. Preference will be given to individuals demonstrating financial need and secondarily to students demonstrating an interest in space research.
+
+    [AOE Fellowships Page](https://www.aoe.vt.edu/graduate/fellowships-and-assistantships.html)
+
+- name: "Pratt Fellowship"
+  type: "fellowship"
+  level: [masters, phd]
+  scope: local
+  body: |
+    This scholarship was created through a gift by John Lee Pratt in 1967, and represents the funding source for your Dean's Scholar award. Pratt Graduate Funding typically supports graduate students participating in overseas education or research experiences, such as attending an international conference.
+
+- name: "Innovate Cyber Challenge"
+  type: "competition"
+  level: [undergrad]
+  scope: local
+  body: |
+    This program aims to develop work-related skills while students resolve important issues faced by local business and industry. Students work within a team to identify a challenge or issue related to cybersecurity. Using the design thinking approach to problem-solving, students were empowered to express their ideas, think creatively, and research within a high-impact team environment to identify solutions.
+
+    [Program Page](https://covacci.org/innovate-cyber-challenge/)
+
+- name: "Rolls Royce Undergraduate Internship"
+  type: "summer program"
+  level: [undergrad]
+  scope: local
+  body: |
+    The Rolls-Royce Summer Internship provides students with a unique entry into real-world engineering objectives and the chance to make an impact from the start. Engineering students will gain valuable skills, learning directly from some of the most respected and highly qualified engineers in the industry.
+
+    [Program Information](https://eng.vt.edu/academics/international-programs/international-interships/rolls-royce-international-internship.html)
+
+- name: "VT Presidential Postdoctoral Fellowship"
+  type: "fellowship"
+  level: [postdoc]
+  scope: local
+  body: |
+    To prepare postdocs for the next step in their careers, fellows will receive:
+
+    - Up to two years of support with nationally competitive salaries and benefits
+    - Up to $10,000 for training and professional development-related expenses (to be used over the fellowship period)
+    - Mentoring and professional development
+
+    [Program Information](https://www.research.vt.edu/about/postdoctoral-associates/virginia-tech-presidential-postdoctoral-fellowships.html)
+
+- name: "VT Research and Innovation Postdoctoral Scholar program"
+  type: "fellowship"
+  level: [postdoc]
+  scope: local
+  body: |
+    Current postdocs selected into this program will join the incoming Presidential Postdoctoral Fellows in a year-long, immersive experience designed to assist postdocs in maximizing time as a postdoc, build valuable skills and networks, have a positive impact on the university and local community, and ultimately launch successful careers.
+
+    [Program Information](https://www.research.vt.edu/about/postdoctoral-associates/research-innovation-postdoctoral-scholar-program.html)
+
+- name: "Roger and Debbie West Student Grant"
+  type: "grant"
+  level: [undergrad, masters, phd]
+  scope: local
+  body: |
+    The Institute for Creativity, Arts, and Technology (ICAT) invites applicants for projects that leverage the combined strengths of science, engineering, art, and design to tackle real-world challenges. Teams must be comprised of students from at least two different schools/department, and one team member must represent arts and/or design. ICAT will award five, $1,000 student grants.
+
+    [Program Information](https://icat.vt.edu/funding/roger-and-debbie-west-student-grant-call-for-proposals.html)
+
+- name: "First Year Fralin Undergraduate Research Fellowship"
+  type: "fellowship"
+  level: [undergrad]
+  scope: local
+  body: |
+    The First-Year Fralin Undergraduate Research Fellowship (or First-Year FURF) Program will provide first-year students, who are new to research, with authentic research experiences in their chosen discipline, under the direct mentorship of a faculty member. The program features projects from every college, and is open to all students who enrolled at Virginia Tech in the Fall.
+
+    [Program Information](https://www.research.undergraduate.vt.edu/research-and-engagement/student-research-and-engagement/research-opportunities/virginia-tech-research-opportunities/first-year-furf.html)
+
+- name: "Multicultural Academic Opportunities Program (MAOP) Summer Research Internship"
+  type: "summer program"
+  level: [undergrad]
+  scope: local
+  body: |
+    The primary goal of this 10-week program is to help students explore career goals and grow professionally. Participants will benefit from:
+
+    - Weekly research & professional development seminars
+    - Occasional social events
+    - A final research symposium with poster presentations
+    - On-campus housing, meal plan, and $3,000 stipend
+
+    [Program Information](https://www.maop.vt.edu/program-services-and-initiatives/undergraduate-summer-research-internship/prospective-intern.html)
+
+- name: "VT Conference Travel Funds"
+  type: "travel"
+  level: [undergrad, masters, phd]
+  scope: local
+  body: |
+    - Graduate student international travel: [Program Information](https://eng.vt.edu/international-programs/student-resources-for-international-programs/conference_travel_fellowship.html)
+    - Undergrad travel for both domestic and international: [Program Information](https://www.research.undergraduate.vt.edu/funding-and-support/student-funding-and-support/travel-grant.html)
+
