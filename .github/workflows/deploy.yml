@@ -70,6 +70,11 @@ jobs:
           npm install -g purgecss
           purgecss -c purgecss.config.js
 
+      # Must run AFTER purgecss: the visualizations ship their own CSS, which
+      # purgecss would strip if it were present in _site during the purge.
+      - name: Copy interactive visualizations 🛩️
+        run: ./bin/copy-viz.sh _site
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
