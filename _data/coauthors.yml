@@ -1,0 +1,5 @@
+# Maps author surnames to canonical first-name variants and a link.
+# Example:
+# "sarojini":
+#   - firstname: ["Darshan", "D."]
+#     url: https://www.aoe.vt.edu/people/faculty/darshan-sarojini.html
