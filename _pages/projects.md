@@ -1,10 +1,10 @@
 ---
 layout: page
-title: research
-permalink: /research/
-description: Projects underway in the Intelligent Design Optimization Lab.
+title: projects
+permalink: /projects/
+description: Ongoing and completed projects.
 nav: true
-nav_order: 2
+nav_order: 3
 display_categories: [ongoing, completed]
 horizontal: false
 ---

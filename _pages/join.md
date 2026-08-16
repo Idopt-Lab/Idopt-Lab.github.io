@@ -4,21 +4,11 @@ title: join
 permalink: /join/
 description: Openings in the Intelligent Design Optimization Lab.
 nav: true
-nav_order: 6
+nav_order: 9
 ---
 
-I am actively recruiting students and researchers. Current opportunities include **graduate research assistantships**, **teaching positions**, and **postdoctoral appointments**.
+I'm always on the lookout for talented students and researchers to join my group. Whether you're interested in research assistantships, teaching assistantships, undergraduate research, or postdoctoral opportunities, there's a place for you here. Please fill out [this form](https://forms.office.com/r/vZSr7TRKZ5) to express your interest and share more about your background.
 
-## Prospective graduate students
-
-If your interests overlap with [our research](/research/) — multidisciplinary design optimization, certification-driven design, model-based systems engineering, or multimodal transportation — please get in touch. Include your CV and a short note on what you would like to work on.
-
-<!-- TODO: the old Google Site embedded a Microsoft Forms recruitment form. Paste its
-     URL here to restore it, either as a plain link or as an <iframe>. It was not
-     recoverable from the rendered page. -->
+See [our research](/research/) for the methods we develop, [projects](/projects/) for what they are applied to, and [people](/people/) for the kinds of projects students take on.
 
 **Email:** sdarshan@vt.edu
-
-## Current Virginia Tech students
-
-Undergraduate and Master's students at Virginia Tech interested in research are welcome to email directly. Several lab members joined through the accelerated BS/MS program — see [people](/people/) for the kinds of projects students take on.
