@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Idopt Lab</title>
+  <title>IDOpt Lab</title>
+  <meta name="description" content="Intelligent Design Optimization Lab — advancing the science and practice of engineering design. Interactive simulation visualizations and the Air Vehicle Design reference library.">
+  <meta property="og:title" content="IDOpt Lab — Intelligent Design Optimization Lab">
+  <meta property="og:description" content="Advancing the science and practice of engineering design. Interactive simulation visualizations and the Air Vehicle Design reference library.">
+  <meta property="og:type" content="website">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -44,16 +48,24 @@
       padding: 5rem 2.5rem 4rem;
       text-align: center;
     }
+    .hero .eyebrow {
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.55);
+      margin-bottom: 0.9rem;
+    }
     .hero h1 {
       font-size: 2.8rem;
       font-weight: 700;
       letter-spacing: -0.5px;
       margin-bottom: 1rem;
     }
-    .hero p {
+    .hero p.lead {
       font-size: 1.15rem;
       color: rgba(255,255,255,0.7);
-      max-width: 560px;
+      max-width: 620px;
       margin: 0 auto;
       line-height: 1.7;
     }
@@ -97,6 +109,14 @@
       box-shadow: 0 6px 24px rgba(0,0,0,0.11);
       transform: translateY(-2px);
     }
+    .card .tag {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.65rem;
+    }
     .card h3 { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem; }
     .card p { color: var(--text-muted); font-size: 0.93rem; line-height: 1.6; flex: 1; }
     .card .cta { color: var(--accent); font-size: 0.875rem; font-weight: 600; margin-top: 1.1rem; }
@@ -113,24 +133,27 @@
 <body>
 
   <header>
-    <a class="logo" href="/">Idopt Lab</a>
+    <a class="logo" href="/">IDOpt Lab</a>
   </header>
 
   <div class="hero">
-    <h1>Idopt Lab</h1>
-    <p>An interactive platform for exploring aeronautical research visualizations, simulation data, and aircraft design tools.</p>
+    <p class="eyebrow">Intelligent Design Optimization Lab</p>
+    <h1>IDOpt Lab</h1>
+    <p class="lead">We work on advancing the science and practice of engineering design &mdash; improving how complex engineering systems are conceived, analyzed, and optimized. Aircraft are the prime example: shaped by the missions they fly and the environments they operate in, spanning aerodynamics, propulsion and structures at once, and held to rigorous certification standards. We develop the methods, algorithms, and software to address those challenges.</p>
   </div>
 
   <main>
-    <p class="section-label">Explore</p>
+    <p class="section-label">What we publish here</p>
     <div class="card-grid">
       <a class="card" href="interactive-visualization/">
+        <span class="tag">Research</span>
         <h3>Interactive Visualization</h3>
-        <p>Explore 3D models and aerodynamic simulation results across different aircraft design categories.</p>
+        <p>3D models and aerodynamic simulation results, explorable in the browser across a range of aircraft design categories.</p>
         <span class="cta">Browse visualizations →</span>
       </a>
 
       <a class="card" href="/air-vehicle-design/">
+        <span class="tag">Teaching</span>
         <h3>AVD Reference Library</h3>
         <p>Curated references for the Air Vehicle Design course sequence, arranged by design-process phase. Every entry links to a source you can reach yourself &mdash; a DOI, a government repository, or an open textbook.</p>
         <span class="cta">Open the library →</span>
@@ -139,7 +162,7 @@
   </main>
 
   <footer>
-    Idopt Lab &mdash; GitHub Pages
+    IDOpt Lab &mdash; Intelligent Design Optimization Lab
   </footer>
 
 </body>
