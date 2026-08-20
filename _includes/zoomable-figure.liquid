@@ -1,0 +1,39 @@
+{% comment %}
+  One image: a responsive webp thumbnail that zooms to the untouched
+  full-resolution source, plus a caption.
+
+  medium-zoom drops srcset/sizes on the zoomed clone and loads data-zoom-src,
+  so the reader gets the original file rather than an upscaled thumbnail.
+
+  Params:
+    path     path under the site root, e.g. assets/img/news/2026/foo.jpg
+    alt      description of the image, for screen readers
+    caption  visible caption (optional)
+    sizes    CSS `sizes` for the thumbnail (defaults to a 220px column)
+    class    class for the <figure> (defaults to zoom-figure)
+{% endcomment %}
+{% assign img_base = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' %}
+<figure class="{{ include.class | default: 'zoom-figure' }}">
+  <picture>
+    {% if site.imagemagick.enabled %}
+      <source
+        class="responsive-img-srcset"
+        srcset="{% for w in site.imagemagick.widths %}{{ img_base | relative_url }}-{{ w }}.webp {{ w }}w,{% endfor %}"
+        type="image/webp"
+        sizes="{{ include.sizes | default: '(max-width: 576px) 92vw, 220px' }}"
+      >
+    {% endif %}
+    <img
+      src="{{ include.path | relative_url }}"
+      class="img-fluid rounded z-depth-1"
+      alt="{{ include.alt }}"
+      loading="lazy"
+      data-zoomable
+      data-zoom-src="{{ include.path | relative_url }}"
+      onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"
+    >
+  </picture>
+  {% if include.caption %}
+    <figcaption class="caption zoom-figure-caption">{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>

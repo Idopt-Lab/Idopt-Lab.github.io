@@ -12,9 +12,8 @@
              caption: K-12 field trip to the flight school
 
      Items without images render exactly as before.
-  3. Thumbnails are served as responsive webp, but medium-zoom opens the
-     untouched full-resolution jpg via data-zoom-src (it drops srcset/sizes on
-     the zoomed clone, so the source file is what the reader actually gets).
+  3. Each image renders through _includes/zoomable-figure.liquid, shared with
+     the teaching page: responsive webp thumbnail, full-resolution zoom.
 {% endcomment %}
 
 <div class="news">
@@ -41,29 +40,13 @@
               {% if item.images %}
                 <div class="news-images">
                   {% for img in item.images %}
-                    {% assign img_base = img.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' %}
-                    <figure class="news-image">
-                      <picture>
-                        {% if site.imagemagick.enabled %}
-                          <source
-                            class="responsive-img-srcset"
-                            srcset="{% for w in site.imagemagick.widths %}{{ img_base | relative_url }}-{{ w }}.webp {{ w }}w,{% endfor %}"
-                            type="image/webp"
-                            sizes="(max-width: 576px) 92vw, 220px"
-                          >
-                        {% endif %}
-                        <img
-                          src="{{ img.path | relative_url }}"
-                          class="img-fluid rounded z-depth-1"
-                          alt="{{ img.alt }}"
-                          loading="lazy"
-                          data-zoomable
-                          data-zoom-src="{{ img.path | relative_url }}"
-                          onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"
-                        >
-                      </picture>
-                      <figcaption class="caption news-image-caption">{{ img.caption }}</figcaption>
-                    </figure>
+                    {% include zoomable-figure.liquid
+                      path=img.path
+                      alt=img.alt
+                      caption=img.caption
+                      class="news-image"
+                      sizes="(max-width: 576px) 92vw, 220px"
+                    %}
                   {% endfor %}
                 </div>
               {% endif %}
@@ -100,7 +83,7 @@
     cursor: zoom-in;
   }
   /* Tighter than the theme's .caption, which is sized for full-width figures. */
-  .news-image-caption {
+  .news-image .zoom-figure-caption {
     font-size: 0.75rem;
     line-height: 1.35;
     margin-top: 0.35rem;
@@ -119,7 +102,7 @@
       width: 100%;
       margin: 0 0 0.75rem 0;
     }
-    .news-image-caption {
+    .news-image .zoom-figure-caption {
       text-align: center;
     }
   }
