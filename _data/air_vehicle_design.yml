@@ -1,0 +1,21 @@
+# Offerings of the AOE 4065-4066 Air Vehicle Design capstone sequence, newest
+# first, rendered by _pages/teaching.md.
+#
+# To add a photo to an offering: drop the file at
+#   assets/img/teaching/air-vehicle-design/<year>/<slug>.jpg
+# and append an entry under that offering's `images`. Nothing else needs
+# editing. Keep the source file at full resolution -- the thumbnail is
+# generated at build time and the image zooms to the original.
+#
+# Fields: year, terms, images[]{path, alt, caption}
+
+- year: "2025-2026"
+  terms: "AOE 4065 Fall 2025 &middot; AOE 4066 Spring 2026"
+  images: []
+
+- year: "2024-2025"
+  terms: "AOE 4065 Fall 2024 &middot; AOE 4066 Spring 2025"
+  images:
+    - path: assets/img/teaching/air-vehicle-design/2024-2025/senior-design-expo.jpg
+      alt: "The Air Vehicle Design team in formal attire lined up beside their laptops, VR headset, and pilot's cap at the senior design expo"
+      caption: "Senior design expo"
