@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Certification-Driven MDO of Aircraft
+title: B777 Horizontal Tail Redesign with Certification Considerations
 description: Trade-off between performance and certification constraints
 importance: 3
 category: completed

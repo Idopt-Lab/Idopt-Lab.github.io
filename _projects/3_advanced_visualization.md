@@ -3,8 +3,10 @@ layout: page
 title: Advanced Visualization Methods for Design
 description: Web-based visualization of 3-D geometry and scientific data
 importance: 3
-category: ongoing
+category: subproject
 ---
+
+A subproject of [Certification-Driven Aircraft Design under Uncertainty](/projects/2_certification_driven_design/), led by Tien Nguyen.
 
 This project develops web-based methods for 3-D geometries and 3-D scientific data and timeseries information visualizations into a common analytic user interface.
 

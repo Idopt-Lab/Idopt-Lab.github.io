@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Aerial Firefighting as a Co-Design Benchmark
+title: Aerial Firefighting
 description: Integrated design-fleet-tactics optimization under uncertainty
-importance: 5
+importance: 6
 category: ongoing
 ---
 
@@ -17,3 +17,9 @@ Solving these layers in sequence misses the couplings between them. A vehicle op
 This project combines our expertise in aircraft systems with complementary expertise in mission engineering and operations research, using agent-based operational modeling as the foundation for the operations layer. The intent is a benchmark problem that is realistic enough to expose the couplings and open enough to serve the wider community as an extensible reference for next-generation aviation systems methods.
 
 The methods developed here are shared with our other co-design work: connecting vehicle models, fleet-level resource allocation, and operational decision-making under uncertainty, so that performance is evaluated at the system level rather than for an isolated vehicle.
+
+## Subprojects
+
+**Mission Engineering** &mdash; Katherine Lemke
+
+Building the operations layer of the co-design problem: an agent-based model of how aircraft are dispatched, re-tasked, and resupplied as an incident evolves, so that fleet composition and vehicle capability can be evaluated against tactics that adapt rather than against a fixed script.

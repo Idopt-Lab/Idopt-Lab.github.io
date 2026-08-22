@@ -26,9 +26,11 @@ We close that gap by embedding certification-relevant constraints and reliabilit
 
 Projects in this theme:
 
-- [Certification Driven Aircraft Design](/projects/2_certification_driven_design/)&mdash;embedding reliability, handling qualities, and 14-CFR time-marching simulations into large-scale MDAO
-- [Certification-Driven MDO of Aircraft](/projects/8_certification_driven_mdo/)&mdash;the trade-off between performance and certification constraints
+- [Certification-Driven Aircraft Design under Uncertainty](/projects/2_certification_driven_design/)&mdash;embedding reliability, handling qualities, and 14-CFR time-marching simulations into large-scale MDAO
+- [B777 Horizontal Tail Redesign with Certification Considerations](/projects/8_certification_driven_mdo/)&mdash;the trade-off between performance and certification constraints
 - [Reliability-Based Design of the X-57 Concept](/projects/9_x57_reliability/)&mdash;off-nominal performance and safety assessment of a distributed electric propulsion concept
+- [Ship Conceptual Design using MDAO](/projects/4_ocean_vehicle_mdo/)&mdash;carrying large-scale MDAO methods across to maritime systems
+- [Virtual Integrated Testing & Analysis Laboratory (VITAL) for AAM Certification](/projects/17_vital/)&mdash;simulation-based evidence for certifying advanced air mobility concepts
 
 ## Theme 2: Vehicle-Operations Co-Design
 
@@ -46,8 +48,8 @@ Across these efforts the methodological intent is consistent: connect vehicle mo
 Projects in this theme:
 
 - [Advancing Regional Air Mobility in Appalachia](/projects/1_regional_air_mobility/)&mdash;a framework for increased accessibility in overburdened communities
-- [Aerial Firefighting as a Co-Design Benchmark](/projects/5_aerial_firefighting/)&mdash;integrated design&ndash;fleet&ndash;tactics optimization under uncertainty
-- [Design Optimization of Ocean Vehicles Using Large-Scale MDO Methods](/projects/4_ocean_vehicle_mdo/)&mdash;carrying the same methods across to maritime systems
+- [Aerial Firefighting](/projects/5_aerial_firefighting/)&mdash;integrated design&ndash;fleet&ndash;tactics optimization under uncertainty
+- [Autonomous Battery Units (ABUs)](/projects/18_autonomous_battery_units/)&mdash;decoupling energy storage from the airframe, coupling vehicle sizing to ground operations
 
 Much of this work is dual-use. The methods and tools support public-good applications that can be openly published and shared&mdash;regional accessibility, disaster response, resilient transportation systems&mdash;and the same methodological advances apply to national security and defense contexts.
 
@@ -82,22 +84,6 @@ Engineering design often involves computationally intensive analyses that requir
 Low-fidelity models are faster but less accurate, introducing errors that can compromise the reliability of results. Multifidelity surrogate models strike a balance: a small number of high-fidelity simulations is strategically combined with a larger number of low-fidelity evaluations, accelerating the overall computation while maintaining the accuracy of the final result.
 
 Applied in [Multi-Fidelity Reduced-Order Modeling (ROM)](/projects/15_multifidelity_rom/).
-
-### Reliability-Based Optimization
-
-Safety risk is generally quantified as a combination of two entities: the probability of a failure or unsafe event, and the severity associated with it. Reliability-based optimization aims to ensure that the system under consideration poses no worse than an acceptable level of risk.
-
-#### Hazard Safety Analysis and Bayesian Compliance Assessment
-
-The approach combines top-down and bottom-up analysis to address limitations in traditional risk assessment methods and to bridge gaps in safety evaluation for novel aircraft architectures. The framework defines three levels:
-
-- **System-Level**&mdash;The aircraft as a whole, captured with six-degree-of-freedom flight dynamics models. These analyze how the entire system responds to off-nominal conditions and 14-CFR regulatory requirements.
-- **Control-Level**&mdash;Subsystems that effect changes in the aircraft's state, including traditional control surfaces, engines, motors, and other mechanisms for movement control. This generalization encompasses all possible means of influencing the aircraft's dynamics.
-- **Component-Level**&mdash;Individual components within the powertrain, such as specific motors or energy storage units, and their respective failure behaviors.
-
-The process begins with a top-down analysis, where system-level performance is assessed to derive failure rate requirements for the control level, ensuring alignment with regulatory standards and safety goals. A bottom-up approach then models component-level failures probabilistically and propagates their effects through the system to evaluate the control-level failure rate. Comparing the computed failure rate against the required one determines whether the system meets acceptable risk thresholds.
-
-Applied in [Reliability-Based Design of the X-57 Concept](/projects/9_x57_reliability/).
 
 ### Model-Based Systems Engineering (MBSE)
 
