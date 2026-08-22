@@ -20,7 +20,13 @@ A year-long capstone sequence. Reference material is published in the [AVD Refer
 {% for offering in site.data.air_vehicle_design %}
   <section class="avd-offering">
     <h4 class="avd-year">{{ offering.year }}</h4>
-    <p class="avd-terms">{{ offering.terms }}</p>
+    <p class="avd-terms">{{ offering.terms }}{% if offering.enrollment %} &middot; {{ offering.enrollment }}{% endif %}</p>
+    {% if offering.mentors %}<p class="avd-mentors">External team mentors from {{ offering.mentors }}.</p>{% endif %}
+    {% if offering.highlights %}
+      <ul class="avd-highlights">
+        {% for h in offering.highlights %}<li>{{ h | markdownify | remove: "<p>" | remove: "</p>" }}</li>{% endfor %}
+      </ul>
+    {% endif %}
     {% if offering.images != blank %}
       <div class="avd-gallery">
         {% for img in offering.images %}
@@ -47,6 +53,13 @@ A year-long capstone sequence. Reference material is published in the [AVD Refer
   .avd-terms {
     margin-bottom: 0.6rem;
     opacity: 0.75;
+  }
+  .avd-mentors {
+    margin-bottom: 0.4rem;
+    font-size: 0.95rem;
+  }
+  .avd-highlights {
+    margin-bottom: 0.8rem;
   }
   .avd-gallery {
     display: flex;

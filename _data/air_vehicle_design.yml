@@ -7,14 +7,22 @@
 # editing. Keep the source file at full resolution -- the thumbnail is
 # generated at build time and the image zooms to the original.
 #
-# Fields: year, terms, images[]{path, alt, caption}
+# Fields: year, terms, enrollment, mentors, highlights[], images[]{path, alt, caption}
 
 - year: "2025-2026"
   terms: "AOE 4065 Fall 2025 &middot; AOE 4066 Spring 2026"
+  enrollment: "98 students, 10 teams"
+  mentors: "Lockheed Martin, SabreSystems, NASA, Electra.aero, TidalFlight, and DLR"
+  highlights:
+    - Two teams selected for the NASA Capstone for Space Grant &ndash; Aeronautics initiative, for *Airspace Resilience Analysis* and *Advanced Air Transportation System Concept for 2040*.
   images: []
 
 - year: "2024-2025"
   terms: "AOE 4065 Fall 2024 &middot; AOE 4066 Spring 2025"
+  enrollment: "69 students, 8 teams"
+  mentors: "Columbia Helicopters, Northrop Grumman, Gundlach Aerospace, VT AF ROTC, Lockheed Martin, Gulfstream Aerospace, and SabreSystems"
+  highlights:
+    - Team Project SPEAR &mdash; a low-cost, remote-piloted homeland defense interceptor &mdash; won **3rd place** in the 2025 AIAA Undergraduate Team Aircraft Design Competition.
   images:
     - path: assets/img/teaching/air-vehicle-design/2024-2025/senior-design-expo.jpg
       alt: "The Air Vehicle Design team in formal attire lined up beside their laptops, VR headset, and pilot's cap at the senior design expo"

@@ -15,7 +15,7 @@ nav_order: 7
 ### American Institute of Aeronautics and Astronautics (AIAA)
 
 - <span class="svc"><span class="svc-label">Member of the AIAA Aircraft Design (AD) Technical Committee </span><span class="svc-date">2025-Present</span></span>
-- <span class="svc"><span class="svc-label">Member of the AIAA Aviation in Multimodal Transportation (AiMT) Integration and Outreach Committee </span><span class="svc-date">2024-Present</span></span>
+- <span class="svc"><span class="svc-label">Founding member of the AIAA Aviation in Multimodal Transportation (AiMT) Integration and Outreach Committee </span><span class="svc-date">2024-Present</span></span>
   - Technical papers subcommittee chair
   - Planning committee for a Forum360 at Aviation 2024 [[Recording](https://www.youtube.com/watch?v=RMF0pmCEkYU)]
 - <span class="svc"><span class="svc-label">Member of the AIAA Transformational Flight (TF) Integration and Outreach Committee </span><span class="svc-date">2022-Present</span></span>
@@ -49,10 +49,16 @@ nav_order: 7
 ### Journals
 
 - Structural and Multidisciplinary Optimization
+- Aerospace Science and Technology
 - AIAA Journal of Aerospace Information Systems
+- AIAA Journal of Aircraft
+- IEEE Transactions on Intelligent Transportation Systems
+- Journal of Air Traffic Management
+- Journal of Ocean Engineering and Science
 - Advances in Materials and Processing Technologies
 - Engineering Computations
 - Proceedings of the Institution of Mechanical Engineers Part G: Journal of Aerospace Engineering
+- MDPI Aerospace, Applied Sciences, and Drones
 
 ### Conferences
 
