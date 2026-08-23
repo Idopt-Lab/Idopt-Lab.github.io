@@ -33,7 +33,7 @@ The concept is the subject of an invention disclosure, *Autonomous Battery Unit 
 
 ## Subprojects
 
-**eVTOLpy** &mdash; rapid eVTOL sizing framework
+**eVTOLpy: Rapid eVTOL Sizing Framework** &mdash; Khoa D. Nguyen and Dylan Hogge
 
 A rapid sizing framework that blends physics-based methods with empirical weight regressions. For each mission segment it computes power and energy requirements as functions of mass, aerodynamics, and propulsion, while an iterative loop updates component weights. Mission parameters (range, loiter time, payload), configuration choices (number of rotors, aspect ratio), and concept type (tilt-wing, lift-plus-cruise, multi-copter) can all be varied to assess their impact on feasibility and takeoff gross weight immediately.
 
