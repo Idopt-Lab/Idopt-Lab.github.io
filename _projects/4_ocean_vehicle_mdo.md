@@ -20,6 +20,8 @@ Demonstrated on the DTMB 5415 hull, a joint hull and propeller optimization subj
 
 **Ship Design Optimization and Dynamics** &mdash; Jeremy John
 
-John, J., Coe, R. G., & Sarojini, D. (2026). Optimization of Ships with Coupled Resistance, Propulsion, and Maneuvering Analysis. OCEANS 2026, Monterey, CA (to appear).
+John, J., Coe, R. G., & Sarojini, D. (2026). Optimization of Ships with Coupled Resistance, Propulsion, and Maneuvering Analysis. OCEANS 2026, Monterey, CA. Accepted.
+
+Co-authored with Dr. Ryan G. Coe, Associate Professor in Aerospace and Ocean Engineering at Virginia Tech.
 
 Supported by the U.S. Department of War SMART Scholarship-for-Service Program, sponsored by the Naval Surface Warfare Center &mdash; Carderock Division. Earlier work in Summer 2025 was supported by a Fincantieri Marine Group scholarship through VT MAOP.
