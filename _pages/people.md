@@ -34,8 +34,15 @@ nav_order: 5
 
 ## {% if group == "current" %}Current Members{% else %}Alumni{% endif %}
 
+{% assign levels = "Ph.D.,M.S.,B.S.,High School" | split: "," %}
+{% for level in levels %}
+{% assign tier = members | where: "level", level %}
+{% if tier.size > 0 %}
+
+### {{ level }}
+
 <div class="person-grid">
-{% for p in members %}
+{% for p in tier %}
   <div class="person">
     {% if p.photo %}
     <img class="person-photo" src="{{ p.photo | prepend: '/assets/img/' | relative_url }}" alt="{{ p.name }}">
@@ -46,6 +53,7 @@ nav_order: 5
       <h3>{{ p.name }}</h3>
       {% if p.degree %}<p class="person-meta"><strong>Degree</strong><br>{{ p.degree }}{% if p.grad %}<br>{{ p.grad }}{% endif %}</p>{% endif %}
       {% if p.area %}<p class="person-meta"><strong>Research area</strong><br>{{ p.area }}</p>{% endif %}
+      {% if p.now %}<p class="person-meta"><strong>Now at</strong><br>{{ p.now }}</p>{% endif %}
       {% if p.distinctions %}
       <p class="person-meta"><strong>Distinctions</strong><br>
         {% for d in p.distinctions %}{{ d }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}
@@ -60,6 +68,8 @@ nav_order: 5
   </div>
 {% endfor %}
 </div>
+{% endif %}
+{% endfor %}
 {% endif %}
 {% endfor %}
 

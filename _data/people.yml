@@ -1,8 +1,10 @@
-# Lab roster, kept in the order and wording used on the original site.
+# Lab roster, grouped by degree level within Current Members and Alumni.
 # To add someone: append an entry under `current` (or `alumni`) and drop a photo
 # at assets/img/people/<slug>.<ext>. Nothing else needs editing.
 #
-# Fields: name, degree, grad (verbatim parenthetical), area, distinctions[],
+# Fields: name, level (Ph.D. | M.S. | B.S. | High School -- drives the grouping
+#         and ordering on /people/), degree, grad (verbatim parenthetical),
+#         area, now (where an alum went next), distinctions[],
 #         photo (path under assets/img/), links{}
 
 pi:
@@ -14,14 +16,15 @@ pi:
     - He serves on the AIAA Modeling and Simulation Technical Committee, Aircraft Design Technical Committee, Transformational Flight Intergration and Outreach Committee and Multimodal Transportation Working Group, and on a number of committees at the ACM/IEEE SuperComputing Conference.
     - He has a bachelor's degree in mechanical engineering, a master's degree in computational science and engineering, and a Ph.D. in aerospace engineering. His graduate school research was conducted in the <a href="https://www.asdl.gatech.edu/">Aerospace Systems Design Lab</a> at Georgia Tech and postdoctoral research at the <a href="https://lsdo.eng.ucsd.edu/">Large Scale Design Optimization</a> lab at UC San Diego.
   links:
-    Google Scholar: https://scholar.google.com/citations?user=BmotoisAAAAJ&hl=en
+    Website: https://www.aoe.vt.edu/people/faculty/darshan-sarojini.html
+    Google Scholar: https://scholar.google.com/citations?user=BmotoisAAAAJ
     LinkedIn: https://www.linkedin.com/in/darshan-sarojini-31b89999/
-    ResearchGate: https://www.researchgate.net/profile/Darshan-Sarojini
     ORCID: https://orcid.org/0000-0003-4910-3505
     GitHub: https://github.com/darshansarojini
 
 current:
   - name: Grant Lee
+    level: Ph.D.
     degree: Ph.D. AE
     area: Vehicle-Operations Co-Design for Regional Air Mobility
     photo: people/grant-lee.png
@@ -29,6 +32,7 @@ current:
       LinkedIn: https://www.linkedin.com/in/grant-l-9b3271332/
 
   - name: Khoa D. Nguyen
+    level: Ph.D.
     degree: Ph.D. AE
     area: Autonomous Battery Units (ABUs) for Urban Air Mobility
     photo: people/khoa-nguyen.jpg
@@ -38,55 +42,16 @@ current:
       ResearchGate: https://www.researchgate.net/profile/Khoa-Nguyen-384
       ORCID: https://orcid.org/0009-0004-3502-1722
 
-  - name: Joseph Gould
-    degree: BS/MS Accelerated Program AE
-    grad: "(Expected graduation: Dec 2026)"
-    area: Certification-Driven Aircraft Design
-    photo: people/joseph-gould.png
-    links:
-      LinkedIn: https://www.linkedin.com/in/gouldjoseph/
+  - name: Khushi Piparava
+    level: M.S.
+    area: Reduced Order Modeling and Uncertainty Quantification
 
-  - name: Nathan M. Shune
-    degree: BS/MS Accelerated Program AE
-    grad: "(Expected graduation: Dec 2026)"
-    area: Multi-disciplinary Aircraft Design and Trajectory Optimization
-    photo: people/nathan-shune.png
-    links:
-      LinkedIn: https://www.linkedin.com/in/nathan-shune-518a45220/
-      GitHub: https://github.com/nshune
-      ORCID: https://orcid.org/0009-0006-6147-8149
-
-  - name: Emma Paulter
-    degree: MS AE
-    grad: "(Expected graduation: Dec 2026)"
-    area: Optimization of hypersonic waveriders in a boost glide trajectory.
-    links:
-      LinkedIn: http://www.linkedin.com/in/emma-pautler-engineer
-
-  - name: Joel George
-    degree: BS/MS Accelerated Program AE
-    grad: "(Expected graduation: May 2027)"
-    area: Structural Optimization of Primary Aerospace Structures Subject to Manufacturability and Producibility Considerations
-    links:
-      LinkedIn: https://www.linkedin.com/in/joel-m-george/
-
-  - name: Krish D. Bhatt
-    degree: BS/MS Accelerated Program AE
-    grad: "(Expected graduation: Dec 2027)"
-    area: Agent Based modeling for Simulating Multi-modal transportation and induction of eVTOLS.
-    photo: people/krish-bhatt.jpg
-    links:
-      LinkedIn: https://www.linkedin.com/in/krish-bhatt/
-
-  - name: Casey Chamberlain
-    degree: "Graduated AE BS: May 2026"
-    grad: "Expected AE MS Graduation: May 2027"
-    area: Tools for conceptual aircraft design in capstone design course
-    photo: people/casey-chamberlain.jpg
-    links:
-      LinkedIn: https://www.linkedin.com/in/casey-chamberlain-503992239/
+  - name: Ferris Barghouty
+    level: M.S.
+    area: Design-Build-Fly of a Tilt-Rotor eVTOL
 
   - name: Jeremy John
+    level: M.S.
     degree: BS/MS Accelerated Program AE
     grad: "(Expected graduation: May 2027)"
     area: Ship Design Optimization and Dynamics
@@ -97,15 +62,12 @@ current:
     links:
       LinkedIn: https://www.linkedin.com/in/jer-j/
 
-  - name: Dylan Hogge
-    degree: MS AE
-    grad: "(Expected graduation: Dec 2027)"
-    area: Hybrid-electric aircraft design
-    photo: people/dylan-hogge.png
-    links:
-      LinkedIn: https://www.linkedin.com/in/dylan-hogge-aa33bb24a/
+  - name: Katherine Lemke
+    level: M.S.
+    area: Firefighting Aircraft, Fleet, Operations Co-Design
 
   - name: Quinn McIver
+    level: M.S.
     degree: BS/MS Accelerated Program AE
     grad: "(Expected graduation: May 2027)"
     area: Off-Nominal Reliability Considerations for Conceptual Aircraft Design Optimization
@@ -113,23 +75,118 @@ current:
     links:
       LinkedIn: https://www.linkedin.com/in/quinn-mciver
 
+  - name: Dylan Hogge
+    level: M.S.
+    degree: MS AE
+    grad: "(Expected graduation: Dec 2027)"
+    area: Hybrid-electric aircraft design
+    photo: people/dylan-hogge.png
+    links:
+      LinkedIn: https://www.linkedin.com/in/dylan-hogge-aa33bb24a/
+
+  - name: Joel George
+    level: M.S.
+    degree: BS/MS Accelerated Program AE
+    grad: "(Expected graduation: May 2027)"
+    area: Producibility and Manufacturability in Aircraft Design
+    links:
+      LinkedIn: https://www.linkedin.com/in/joel-m-george/
+
+  - name: Krish D. Bhatt
+    level: M.S.
+    degree: BS/MS Accelerated Program AE
+    grad: "(Expected graduation: Dec 2027)"
+    area: Agent Based modeling for Simulating Multi-modal transportation and induction of eVTOLS.
+    photo: people/krish-bhatt.jpg
+    links:
+      LinkedIn: https://www.linkedin.com/in/krish-bhatt/
+
+  - name: Casey Chamberlain
+    level: M.S.
+    degree: "Graduated AE BS: May 2026"
+    grad: "Expected AE MS Graduation: May 2027"
+    area: Tools for conceptual aircraft design in capstone design course
+    photo: people/casey-chamberlain.jpg
+    links:
+      LinkedIn: https://www.linkedin.com/in/casey-chamberlain-503992239/
+
+  - name: Emma Paulter
+    level: M.S.
+    degree: MS AE
+    grad: "(Expected graduation: Dec 2026)"
+    area: Aerodynamic Shape Optimization of a Hypersonic Waverider
+    links:
+      LinkedIn: http://www.linkedin.com/in/emma-pautler-engineer
+
+  - name: Joseph Gould
+    level: M.S.
+    degree: BS/MS Accelerated Program AE
+    grad: "(Expected graduation: Dec 2026)"
+    area: Certification-Driven Aircraft Design
+    photo: people/joseph-gould.png
+    links:
+      LinkedIn: https://www.linkedin.com/in/gouldjoseph/
+
+  - name: Nathan M. Shune
+    level: M.S.
+    degree: BS/MS Accelerated Program AE
+    grad: "(Expected graduation: Dec 2026)"
+    area: Multi-disciplinary Aircraft Design and Trajectory Optimization
+    photo: people/nathan-shune.png
+    links:
+      LinkedIn: https://www.linkedin.com/in/nathan-shune-518a45220/
+      GitHub: https://github.com/nshune
+      ORCID: https://orcid.org/0009-0006-6147-8149
+
+  - name: Aman Anwar
+    level: B.S.
+
+  - name: Tien Nguyen
+    level: B.S.
+
+alumni:
+  - name: Nico DeMarinis
+    level: M.S.
+    area: Satellite Packing Problem
+
+  - name: Naman Kumar Shetty
+    level: M.S.
+    degree: "MS Non-Thesis AE (Graduated: May 2026)"
+    area: Modular Flight Dynamics & Simulation Frameworks.
+    links:
+      LinkedIn: https://www.linkedin.com/in/naman-kumar-shetty/
+
   - name: Sanjana Anem
-    degree: Junior AE
-    grad: "(Expected graduation: May 2028)"
+    level: B.S.
     area: Aircraft Design Visualization in VR
     photo: people/sanjana-anem.jpg
     links:
       LinkedIn: https://www.linkedin.com/in/sanjana-anem-4497a9327/
 
-alumni:
+  - name: Eden Enwiya
+    level: B.S.
+
   - name: Ethan J. Phillips
+    level: B.S.
     degree: ME
     area: Aircraft Flight Simulation and VR visualization
     links:
       LinkedIn: https://www.linkedin.com/in/ethan-phillips-vt/
 
-  - name: Naman Kumar Shetty
-    degree: "MS Non-Thesis AE (Graduated: May 2026)"
-    area: Modular Flight Dynamics & Simulation Frameworks.
+  - name: Kavin Narayanan
+    level: High School
+    now: Purdue University
     links:
-      LinkedIn: https://www.linkedin.com/in/naman-kumar-shetty/
+      LinkedIn: https://www.linkedin.com/in/kavin-narayanan-99b431426/
+
+  - name: Eric Zheng
+    level: High School
+    now: University at Buffalo
+    links:
+      LinkedIn: https://www.linkedin.com/in/ericzheng1101/
+
+  - name: Anjana Vaidyaraman
+    level: High School
+    now: Caltech
+    links:
+      LinkedIn: https://www.linkedin.com/in/anjana-vaidyaraman-538659267/
