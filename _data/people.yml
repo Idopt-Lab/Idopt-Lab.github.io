@@ -44,7 +44,10 @@ current:
 
   - name: Khushi Piparava
     level: M.S.
-    area: Reduced Order Modeling and Uncertainty Quantification
+    area: Multi-fidelity reduced order models
+    photo: people/khushi-piparava.jpg
+    links:
+      LinkedIn: https://www.linkedin.com/in/khushi-piparava/
 
   - name: Ferris Barghouty
     level: M.S.
@@ -70,7 +73,7 @@ current:
     level: M.S.
     degree: BS/MS Accelerated Program AE
     grad: "(Expected graduation: May 2027)"
-    area: Off-Nominal Reliability Considerations for Conceptual Aircraft Design Optimization
+    area: Certification-Driven Conceptual Design Optimization for Regional Air Mobility Aircraft
     photo: people/quinn-mciver.jpg
     links:
       LinkedIn: https://www.linkedin.com/in/quinn-mciver
@@ -165,6 +168,10 @@ alumni:
 
   - name: Eden Enwiya
     level: B.S.
+    area: Aircraft visualization
+    photo: people/eden-enwiya.jpg
+    links:
+      LinkedIn: https://www.linkedin.com/in/eden-enwiya
 
   - name: Ethan J. Phillips
     level: B.S.
